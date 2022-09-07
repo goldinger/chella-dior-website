@@ -4,7 +4,7 @@ var cellCount = 4; // cellCount set from cells-range input value
 var selectedIndex = 0;
 var cellWidth = carousel.offsetWidth;
 var cellHeight = carousel.offsetHeight;
-var isHorizontal = false;
+var isHorizontal = true;
 var rotateFn = isHorizontal ? 'rotateY' : 'rotateX';
 var radius, theta;
 // console.log( cellWidth, cellHeight );
